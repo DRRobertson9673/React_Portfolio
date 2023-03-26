@@ -1,0 +1,56 @@
+#introArea {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 2000px;
+}
+
+.introLeft {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-bottom: 15px;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 27px;
+}
+
+.introLeft h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+    opacity: 0;
+    transition: opacity .5s;
+    min-width: 380px;
+}
+
+.introLeftAnimation {
+    opacity: 1;
+    animation: introLeftAnim 1.5s ease-in-out 0s 1 normal both;
+}
+
+@keyframes introLeftAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.introLeft h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.introLeft span {
+    color: var(--myGreen);
+}
+
+
+.introRight {
+    width: 50%;
+    margin-right: 10%;
+}

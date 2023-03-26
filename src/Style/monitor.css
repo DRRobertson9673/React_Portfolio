@@ -1,0 +1,274 @@
+.spacer {
+    height: 1000px;
+}
+
+#monitorAnimation {
+    width:100%;
+    position: relative;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#parallaxMonitor {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+#monitor {
+    position: relative;
+    width: 80%;
+}
+
+#content {
+    position: absolute;
+    width: 80%;
+}
+
+.profile {
+    position: absolute;
+    width: 13%;
+    left: 16%;
+    top: 7.5%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.profileAnimation {
+    transition-delay: .5s;
+    opacity: 1;
+    animation: profileAnim .5s ease .5s 1 normal forwards;
+}
+
+@keyframes profileAnim {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.element1 {
+    position: absolute;
+    width: 13%;
+    left: 16%;
+    bottom: 26%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.element1Animation {
+    transition-delay: .5s;
+    opacity: 1;
+    animation: element1Anim 1.5s ease .5s 1 normal forwards;
+}
+
+@keyframes element1Anim {
+    0% {
+        transform: scaleY(0);
+        transform-origin: 100% 0%;
+    }
+
+    100% {
+        transform: scaleY(1);
+        transform-origin: 100% 0%;
+    }
+}
+
+.element2 {
+    position: absolute;
+    width: 33.25%;
+    left: 31.2%;
+    top: 8%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.element2Animation {
+    transition-delay: .5s;
+    opacity: 1;
+    animation: element2Anim 1.5s ease .5s 1 normal forwards;
+}
+
+@keyframes element2Anim {
+    0% {
+        transform: scaleX(0);
+        transform-origin: 0% 100%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 0% 100%;
+    }
+}
+
+.element3 {
+    position: absolute;
+    width: 33.25%;
+    left: 31.2%;
+    top: 20%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.element3Animation {
+    transition-delay: .5s;
+    opacity: 1;
+    animation: element3Anim 1.5s ease .5s 1 normal forwards;
+}
+
+@keyframes element3Anim {
+    0% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.element4 {
+    position: absolute;
+    width: 33.25%;
+    left: 31.2%;
+    bottom: 26%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.element4Animation {
+    transition-delay: 1s;
+    opacity: 1;
+    animation: element4Anim 1.5s ease 1s 1 normal forwards;
+}
+
+@keyframes element4Anim {
+    0% {
+        transform: scaleX(0);
+        transform-origin: 0% 100%;
+    }
+
+    100% {
+        transform: scaleX(1);
+        transform-origin: 0% 100%;
+    }
+}
+
+.element5 {
+    position: absolute;
+    height: 66%;
+    left: 66.5%;
+    bottom: 26%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.element5Animation {
+    transition-delay: 1s;
+    opacity: 1;
+    animation: element1Anim 1.5s ease 1s 1 normal forwards;
+}
+
+@keyframes element5Anim {
+    0% {
+        transform: scaleY(0);
+        transform-origin: 100% 0%;
+    }
+
+    100% {
+        transform: scaleY(1);
+        transform-origin: 100% 0%;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.screen1 {
+    position: absolute;
+    width: 40%;
+    right: 0;
+    top: -5%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.screen2 {
+    position: absolute;
+    width: 35%;
+    left: 0;
+    top: 45%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.screen3 {
+    position: absolute;
+    width: 30%;
+    right: 3%;
+    top: 53%;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.screenAnimationA {
+    transition-delay: .2s;
+    opacity: 1;
+    animation: screenAnim 1s ease-out .2s 1 normal forwards, vibrateAnim 6s ease .2s infinite normal forwards;
+}
+
+.screenAnimationB {
+    transition-delay: .1s;
+    opacity: 1;
+    animation: screenAnim 15s ease-out .1s 1 normal forwards, vibrateAnim 9s ease .1s infinite normal forwards;
+}
+
+.screenAnimationC {
+    opacity: 1;
+    animation: screenAnim .25s ease-out 0s 1 normal forwards, vibrateAnim 7s ease .5s infinite reverse forwards;
+}
+
+@keyframes screenAnim {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes vibrateAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-3px, 3px);
+	}
+
+	40% {
+		transform: translate(-2px, -2px);
+	}
+
+	60% {
+		transform: translate(2px, 2px);
+	}
+
+	80% {
+		transform: translate(2px, -2px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
