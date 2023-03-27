@@ -1,92 +1,92 @@
 #backgroundFill {
-    position: fixed;
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    background-color: Black;
-    z-index: -5;
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background-color: Black;
+  z-index: -5;
 }
 
 #hero {
-    background-attachment: fixed;
-    background-image: url(../Images/Profile_hero_dark.jpg);
-    background-size: cover;
-    height: 110vh;
-    background-position: 50%;
-    mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, transparent);
-    margin-bottom: 30px;
+  background-attachment: fixed;
+  background-image: url(../Images/Profile_hero_dark.jpg);
+  background-size: cover;
+  height: 110vh;
+  background-position: 50%;
+  mask-image: linear-gradient(rgba(0, 0, 0, 1) 90%, transparent);
+  margin-bottom: 30px;
 }
 
 #heroContent {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding-top: 40vh;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40vh;
+  align-items: center;
 }
 
 #heroTitle {
-    position: absolute;
-    margin: auto;
-    top: 410px;
-    font-weight: bold;
-    color: white;
-    font-size: 7rem;
-    line-height: 5rem;
-    animation: heroTitleAnim 0.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;
+  position: absolute;
+  margin: auto;
+  top: 410px;
+  font-weight: bold;
+  color: white;
+  font-size: 7rem;
+  line-height: 5rem;
+  animation: heroTitleAnim .5s ease-out .75s 1 normal both;
+  /*animation: heroTitleAnim 0.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;*/
 }
 
-  @keyframes heroTitleAnim {
-    0% {
-      -webkit-filter: blur(12px);
-              filter: blur(12px);
-      opacity: 0;
-    }
-    100% {
-      -webkit-filter: blur(0px);
-              filter: blur(0px);
-      opacity: 1;
-    }
+@keyframes heroTitleAnim {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
   }
 
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
 #heroTitleSmall {
-    color: var(--myGreen);
-    font-family: 'Yellowtail', cursive;
-    font-size: 3.5rem;
-    margin-top: 170px;
-    animation: heroTitleSmallAnim 1s ease-in-out .5s 1 normal both;
+  color: var(--myGreen);
+  font-family: 'Yellowtail', cursive;
+  font-size: 3.5rem;
+  margin-top: 170px;
+  animation: heroTitleSmallAnim 1s ease-in-out .5s 1 normal both;
 }
 
 @keyframes heroTitleSmallAnim {
-	0% {
-		opacity: 0;
-		transform: translateY(30px);
-	}
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
 
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 /*-----------------*/
 
 @media screen and (max-width: 575px) {
   #hero {
-    background-attachment:scroll;
+    background-attachment: scroll;
     height: 100vh;
     margin-bottom: 10px;
-}
+  }
 
-#heroTitle {
-  top: 350px;
-  font-size: 5rem;
-  line-height: 3.25rem;
-}
+  #heroTitle {
+    top: 350px;
+    font-size: 5rem;
+    line-height: 3.25rem;
+  }
 
-#heroTitleSmall {
-  font-size: 2rem;
-  margin-top: 225px;
-}
+  #heroTitleSmall {
+    font-size: 2rem;
+    margin-top: 225px;
+  }
 }

@@ -221,20 +221,20 @@
 }
 
 .screenAnimationA {
-    transition-delay: .2s;
+    transition-delay: 1s;
     opacity: 1;
-    animation: screenAnim 1s ease-out .2s 1 normal forwards, vibrateAnim 6s ease .2s infinite normal forwards;
+    animation: screenAnim 1s ease-out .2s 1 normal forwards, vibrateAnim 6s ease 1s infinite normal forwards;
 }
 
 .screenAnimationB {
-    transition-delay: .1s;
+    transition-delay: .8s;
     opacity: 1;
-    animation: screenAnim 15s ease-out .1s 1 normal forwards, vibrateAnim 9s ease .1s infinite normal forwards;
+    animation: screenAnim 0.8s ease-out .1s 1 normal forwards, vibrateAnim 9s ease .8s infinite normal forwards;
 }
 
 .screenAnimationC {
     opacity: 1;
-    animation: screenAnim .25s ease-out 0s 1 normal forwards, vibrateAnim 7s ease .5s infinite reverse forwards;
+    animation: screenAnim 1.2s ease-out 0s 1 normal forwards, vibrateAnim 7s ease 1s infinite reverse forwards;
 }
 
 @keyframes screenAnim {
@@ -276,5 +276,5 @@
 /*-----------------*/
 
 @media screen and (max-width: 575px) {
-    
+
 }
