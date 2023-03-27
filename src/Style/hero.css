@@ -32,7 +32,7 @@
   padding-top: 85px;
   font-size: 7rem;
   line-height: 5rem;
-  animation: heroTitleAnim .5s ease-out .75s 1 normal both;
+  animation: heroTitleAnim 1s ease-out .75s 1 normal both;
   /*animation: heroTitleAnim 0.4s cubic-bezier(0.550, 0.085, 0.680, 0.530) 0.5s both;*/
 }
 
@@ -52,8 +52,7 @@
   color: var(--myGreen);
   font-family: 'Yellowtail', cursive;
   font-size: 3.5rem;
-  margin-top: 10px;
-  animation: heroTitleSmallAnim 1s ease-in-out .5s 1 normal both;
+  animation: heroTitleSmallAnim 1s ease-in-out 1s 1 normal both;
 }
 
 @keyframes heroTitleSmallAnim {
