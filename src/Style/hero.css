@@ -27,11 +27,9 @@
 }
 
 #heroTitle {
-  position: absolute;
-  margin: auto;
-  top: 410px;
   font-weight: bold;
   color: white;
+  padding-top: 85px;
   font-size: 7rem;
   line-height: 5rem;
   animation: heroTitleAnim .5s ease-out .75s 1 normal both;
@@ -54,7 +52,7 @@
   color: var(--myGreen);
   font-family: 'Yellowtail', cursive;
   font-size: 3.5rem;
-  margin-top: 170px;
+  margin-top: 10px;
   animation: heroTitleSmallAnim 1s ease-in-out .5s 1 normal both;
 }
 
@@ -80,13 +78,11 @@
   }
 
   #heroTitle {
-    top: 350px;
     font-size: 5rem;
     line-height: 3.25rem;
   }
 
   #heroTitleSmall {
     font-size: 2rem;
-    margin-top: 225px;
   }
 }
