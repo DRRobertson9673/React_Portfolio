@@ -69,3 +69,24 @@
 		transform: translateY(0);
 	}
 }
+
+/*-----------------*/
+
+@media screen and (max-width: 575px) {
+  #hero {
+    background-attachment:scroll;
+    height: 100vh;
+    margin-bottom: 10px;
+}
+
+#heroTitle {
+  top: 350px;
+  font-size: 5rem;
+  line-height: 3.25rem;
+}
+
+#heroTitleSmall {
+  font-size: 2rem;
+  margin-top: 225px;
+}
+}

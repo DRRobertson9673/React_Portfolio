@@ -272,3 +272,9 @@
 		transform: translate(0);
 	}
 }
+
+/*-----------------*/
+
+@media screen and (max-width: 575px) {
+    
+}

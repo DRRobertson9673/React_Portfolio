@@ -9,7 +9,7 @@ function Intro() {
         window.addEventListener("scroll", onScroll);
         function onScroll() {
             const scrollTop = $(window).scrollTop();
-            const Offset = document.getElementById('marker').offsetTop;
+            const Offset = document.getElementById('introArea').offsetTop;
             const vh = (window.innerHeight);
 
             if ((scrollTop + (vh)) > Offset) {

@@ -125,3 +125,19 @@ nav .portfolio {
     color: black;
     background-color: var(--myGreen);
 }
+
+/*-----------------*/
+
+@media screen and (max-width: 575px) {
+    nav {
+        padding: 3px;
+    }
+
+    #navLinks {
+        display: none;
+    }
+
+    #lilSkull {
+        display: none;
+    }
+}
