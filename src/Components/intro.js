@@ -21,10 +21,9 @@ function Intro() {
         }
     }, []);
 
-    let index = 0
-
     useEffect(() => {
         window.addEventListener("scroll", onScroll);
+        let index = 0
         function onScroll() {
             const scrollTop = $(window).scrollTop();
             const Offset = document.getElementById('socialLinksTrigger').offsetTop;

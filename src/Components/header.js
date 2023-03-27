@@ -1,5 +1,4 @@
 import "../Style/header.css"
-import myImage from '../Images/LilSkull_white.svg';
 import $ from 'jquery';
 
 function Header() {
