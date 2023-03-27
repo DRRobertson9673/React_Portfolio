@@ -24,7 +24,7 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: var(--myBlack);
-    background-image: linear-gradient(137deg, rgba(60,60,60,1) 0%, rgba(40,40,40,1) 24%, rgba(15,15,15,1) 85%);
+    background-image: linear-gradient(137deg, rgba(60, 60, 60, 1) 0%, rgba(40, 40, 40, 1) 24%, rgba(15, 15, 15, 1) 85%);
     background-attachment: fixed;
     -webkit-font-smoothing: subpixel-antialiased;
 }
@@ -37,31 +37,35 @@ nav {
     justify-content: space-between;
     padding: 15px;
     background-color: rgb(0, 0, 0, .2);
+    backdrop-filter: blur(8px)
 }
 
 .navAnimationUp {
     animation: navUpAnim 1s ease 0s 1 normal forwards;
 }
-@keyframes navUpAnim {
-	0% {
-		transform: translateY(0);
-	}
 
-	100% {
-		transform: translateY(-100px);
-	}
+@keyframes navUpAnim {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
 }
+
 .navAnimationDown {
     animation: navDownAnim 1s ease 0s 1 reverse forwards;
 }
-@keyframes navDownAnim {
-	0% {
-		transform: translateY(0);
-	}
 
-	100% {
-		transform: translateY(-100px);
-	}
+@keyframes navDownAnim {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100px);
+    }
 }
 
 #brand {
@@ -84,21 +88,31 @@ nav {
 }
 
 #lilSkull {
-    height: 25px;
-    width: 25px;
-    margin-top: 5px;
+    background-image: url(../Images/LilSkull_white.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    z-index: 20;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    height: 28px;
+    width: 28px;
+}
+
+#lilSkull:hover {
+    background-image: url(../Images/LilSkull_green.svg);
 }
 
 nav .name {
-    margin-left: 10px;
-    margin-top: 8px;
+    margin-left: 35px;
+    margin-top: 7.5px;
     font-weight: lighter;
     color: white;
 }
 
 nav .portfolio {
     font-weight: bolder;
-    margin-top: 8px;
+    margin-top: 7.5px;
     color: white;
 }
 
@@ -165,4 +179,79 @@ nav .portfolio {
     #lilSkull {
         display: none;
     }
+}
+
+#socialLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 20px;
+    z-index: 5;
+    position: fixed;
+    bottom: 0px;
+    transition: opacity 2s;
+    opacity: 0;
+}
+
+@keyframes socialLinksAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes socialLinksAnimOut {
+    0% {
+        opacity: 0;
+        transform: translateY(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#navLine {
+    z-index: 5;
+    bottom: 0px;
+    left: 33px;
+    width: 1px;
+    height: 100px;
+    background-color: white;
+}
+
+.socialLink {
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: transform .3s;
+}
+
+.socialLink:hover {
+    transform: translateY(-3px);
+    transition: transform .3s;
+}
+
+#LinkedIn {
+    background-image: url(../Images/LinkedInLogo.svg);
+}
+
+#GitHub {
+    background-image: url(../Images/GitHubLogo.svg);
+}
+
+#LinkedIn:hover {
+    background-image: url(../Images/LinkedInLogoGreen.svg);
+}
+
+#GitHub:hover {
+    background-image: url(../Images/GitHubLogoGreen.svg);
 }
