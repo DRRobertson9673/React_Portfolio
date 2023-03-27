@@ -39,6 +39,31 @@ nav {
     background-color: rgb(0, 0, 0, .2);
 }
 
+.navAnimationUp {
+    animation: navUpAnim 1s ease 0s 1 normal forwards;
+}
+@keyframes navUpAnim {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-100px);
+	}
+}
+.navAnimationDown {
+    animation: navDownAnim 1s ease 0s 1 reverse forwards;
+}
+@keyframes navDownAnim {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-100px);
+	}
+}
+
 #brand {
     margin-left: 5px;
     display: flex;

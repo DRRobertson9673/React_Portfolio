@@ -23,15 +23,42 @@ function Monitor() {
             const vh = (window.innerHeight);
 
             if ((scrollTop + (vh / 2)) > Offset) {
-                $('.screen1').addClass('screenAnimationA')
-                $('.screen2').addClass('screenAnimationB')
-                $('.screen3').addClass('screenAnimationC')
-                $('.profile').addClass('profileAnimation')
-                $('.element1').addClass('element1Animation')
-                $('.element2').addClass('element2Animation')
-                $('.element3').addClass('element3Animation')
-                $('.element4').addClass('element4Animation')
-                $('.element5').addClass('element5Animation')
+                $('.screen1').css({
+                    opacity: 1,
+                    animation: `screenAnim 1s ease 0s 1 normal forwards, vibrateAnim 6s ease 1s infinite normal forwards`
+                })
+                $('.screen2').css({
+                    opacity: 1,
+                    animation: `screenAnim 1.25s ease .5s 1 normal forwards, vibrateAnim 9s ease 1.75s infinite normal forwards`
+                })
+                $('.screen3').css({
+                    opacity: 1,
+                    animation: `screenAnim .75s ease .25s 1 normal forwards, vibrateAnim 7s ease 1s infinite reverse forwards`
+                })
+                $('.profile').css({
+                    opacity: 1,
+                    animation: `profileAnim .5s ease .5s 1 normal forwards`
+                })
+                $('.element1').css({
+                    opacity: 1,
+                    animation: `element1Anim 1.5s ease .5s 1 normal forwards`
+                })
+                $('.element2').css({
+                    opacity: 1,
+                    animation: `element2Anim 1.5s ease .5s 1 normal forwards`
+                })
+                $('.element3').css({
+                    opacity: 1,
+                    animation: `element3Anim 1.5s ease .5s 1 normal forwards`
+                })
+                $('.element4').css({
+                    opacity: 1,
+                    animation: `element4Anim 1.5s ease 1s 1 normal forwards`
+                })
+                $('.element5').css({
+                    opacity: 1,
+                    animation: `element1Anim 1.5s ease 1s 1 normal forwards`
+                })
             }
         }
     }, []);

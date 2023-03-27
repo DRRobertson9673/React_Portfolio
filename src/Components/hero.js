@@ -11,13 +11,13 @@ function Hero() {
             const heroContentOffset = document.getElementById('heroTitle').offsetTop;
 
             $('#hero').css({
-                opacity: (((heroContentOffset * 1.5) - scrollTop) / heroContentOffset)
+                opacity: (((heroContentOffset * 1.75) - scrollTop) / heroContentOffset)
             })
             $('#heroContent').css({
                 opacity: ((heroContentOffset - scrollTop) / heroContentOffset)
             })
             $('#backgroundFill').css({
-                opacity: (((heroContentOffset * 1.75) - scrollTop) / (heroContentOffset))
+                opacity: (((heroContentOffset * 2) - scrollTop) / (heroContentOffset))
             })
         }
     }, []);

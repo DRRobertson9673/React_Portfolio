@@ -13,7 +13,10 @@ function Intro() {
             const vh = (window.innerHeight);
 
             if ((scrollTop + (vh)) > Offset) {
-                $('h1').addClass('introLeftAnimation')
+                $('h1').css({
+                    opacity: 1,
+                    Animation: `introLeftAnim 1s ease-in-out 0s 1 normal both`
+                })
             }
         }
     }, []);
