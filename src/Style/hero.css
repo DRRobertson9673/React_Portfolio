@@ -28,9 +28,9 @@
 #heroTitle {
   font-weight: bold;
   color: white;
-  padding-top: 85px;
-  font-size: 7rem;
-  line-height: 5rem;
+  padding-top: 16vh;
+  font-size: 8vw;
+  line-height: 5.5vw;
   animation: heroTitleAnim 1s ease-out .75s 1 normal both;
 }
 
@@ -49,7 +49,7 @@
 #heroTitleSmall {
   color: var(--myGreen);
   font-family: 'Yellowtail', cursive;
-  font-size: 3.5rem;
+  font-size: 4vw;
   animation: heroTitleSmallAnim 1s ease-in-out 1s 1 normal both;
 }
 
