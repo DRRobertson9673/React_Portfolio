@@ -1,5 +1,4 @@
 import "../Style/intro.css"
-import Monitor from '../Components/monitor';
 import React, { useEffect } from 'react';
 import $ from 'jquery';
 
