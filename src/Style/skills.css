@@ -1,0 +1,46 @@
+#skillsArea {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 300vh;
+}
+
+#skillsArea h1 {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#skillsRow {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.skill {
+    filter: brightness(.4) grayscale();
+    align-items: center;
+    text-align: center;
+    color: var(--myGreen);
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    opacity: 0;
+}
+
+@keyframes skillAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.skillIcon {
+    height: 3vw;
+}

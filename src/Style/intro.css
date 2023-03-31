@@ -1,33 +1,33 @@
 #introArea {
     display: flex;
     flex-direction: row;
-    padding-bottom: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 120px;
 }
 
-.introLeft {
+.introText {
     width: 50%;
-    margin-left: 10%;
     margin-right: 8%;
-    margin-bottom: 15px;
     color: white;
     font-size: 15px;
     font-weight: 300;
     line-height: 27px;
 }
 
-.introLeft h1 {
+.introText h1 {
     font-size: 50px;
     margin-bottom: 40px;
     opacity: 0;
     transition: opacity .5s;
 }
 
-.introLeftAnimation {
+.introTextAnimation {
     opacity: 1;
-    animation: introLeftAnim 1.5s ease-in-out 0s 1 normal both;
+    animation: introTextAnim 1.5s ease-in-out 0s 1 normal both;
 }
 
-@keyframes introLeftAnim {
+@keyframes introTextAnim {
     0% {
         opacity: 0;
         transform: translateY(50px);
@@ -39,19 +39,18 @@
     }
 }
 
-.introLeft h2 {
+.introText h2 {
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-.introLeft span {
+.introText span {
     color: var(--myGreen);
 }
 
 
-.introRight {
+.introImage {
     width: 50%;
-    margin-right: 10%;
 }
 
 /*-----------------*/
@@ -61,20 +60,20 @@
         flex-direction: column;
     }
 
-    .introLeft {
+    .introText {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
     }
 
-    .introLeft h1 {
+    .introText h1 {
         font-size: 35px;
         margin-bottom: 20px;
         opacity: 0;
         transition: opacity .5s;
     }
 
-    .introRight {
+    .introImage {
         width: 80%;
         margin-right: 10%;
         margin-left: 8.5%;
