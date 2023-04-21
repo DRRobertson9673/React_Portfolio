@@ -34,12 +34,6 @@
   animation: heroTitleAnim 1s ease-out .75s 1 normal both;
 }
 
-.dots {
-  position: absolute;
-  width: 60vw;
-  top: -30vh;
-}
-
 @keyframes heroTitleAnim {
   0% {
     filter: blur(12px);

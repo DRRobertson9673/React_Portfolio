@@ -1,0 +1,101 @@
+#projectsArea {
+    z-index: 10;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-left: 10vw;
+    height: 90vh;
+    width: 80vw;
+    margin-bottom: 150px;
+}
+
+#projectsTitle {
+    color: white;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+#project1 {
+    grid-area: 1 / 1 / 4 / 5;
+    background-image: url(../Images/screenshotFitness.png);
+    background-position: center;
+    transition: background-image .5s;
+}
+
+#project2 {
+    grid-area: 4 / 1 / 6 / 3;
+    background-image: url(../Images/screenshotMovie.png);
+    background-position-x: center;
+}
+
+#project3 {
+    grid-area: 4 / 3 / 6 / 5;
+    background-image: url(../Images/screenshotWeather.png);
+}
+
+.project {
+    background-size: cover;
+}
+
+.projectOverlay {
+    background-color: var(--myGreen);
+    height: 100%;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0;
+    padding-left: 4vw;
+    padding-right: 30%;
+    position: relative;
+}
+
+.project:hover .projectOverlay {
+    opacity: 1;
+}
+
+.projectName {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.projectInfo {
+    position: absolute;
+    bottom: 10%;
+}
+
+.projectType {
+    padding-top: 3vw;
+    font-weight: 200;
+}
+
+.projectDescription {
+    font-weight: 300;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.projectLink {
+    text-decoration: none;
+    color: white;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.projectLink p {
+    margin-top: 5px;
+}
+
+.linkArrow {
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.projectLink:hover {
+    color: black;
+}
+
+.projectLink:hover .linkArrow {
+    margin-left: 5px;
+    color: black;
+}

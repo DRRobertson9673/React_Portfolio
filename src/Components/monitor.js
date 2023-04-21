@@ -78,7 +78,7 @@ function Monitor() {
         <div>
             <div id="marker"></div>
             <div id="monitorAnimation">
-                <Parallax speed={+10} id="parallaxMonitor">
+                <Parallax speed={+5} id="parallaxMonitor">
                     <img id="monitor" src={monitor} alt="" />
                     <img className="profile" src={profile} alt="" />
                     <img className="element1" src={element1} alt="" />

@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 27.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 338.2 367.6" style="enable-background:new 0 0 338.2 367.6;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 374 423.5" style="enable-background:new 0 0 374 423.5;" xml:space="preserve">
 <style type="text/css">
 	.st0{display:none;}
 	.st1{display:inline;fill:#404041;}
 	.st2{opacity:0.15;}
 	
-		.st3{fill:#00FFAB;stroke:#00FFAB;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0.1,30;}
+		.st3{fill:none;stroke:#00FFAB;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0.1,30;}
 </style>
-<g id="Layer_2" class="st0">
-	<rect x="-68.8" y="98.4" class="st1" width="500" height="500"/>
+<g id="Layer_2_00000156553599641669632770000007610001138775152010_" class="st0">
+	<rect x="30.2" y="99.2" class="st1" width="500" height="500"/>
 </g>
-<g id="Layer_1">
+<g id="Layer_1_00000043414825941501434330000000848101100482963873_">
 	<g class="st2">
-		<line class="st3" x1="335.8" y1="-118.3" x2="335.8" y2="485.9"/>
-		<line class="st3" x1="305.8" y1="-118.3" x2="305.8" y2="485.9"/>
-		<line class="st3" x1="275.7" y1="-118.3" x2="275.7" y2="485.9"/>
-		<line class="st3" x1="245.7" y1="-118.3" x2="245.7" y2="485.9"/>
-		<line class="st3" x1="215.7" y1="-118.3" x2="215.7" y2="485.9"/>
-		<line class="st3" x1="155.6" y1="-118.3" x2="155.6" y2="485.9"/>
-		<line class="st3" x1="125.6" y1="-118.3" x2="125.6" y2="485.9"/>
-		<line class="st3" x1="185.6" y1="-118.3" x2="185.6" y2="485.9"/>
+		<line class="st3" x1="373.2" y1="0.8" x2="373.2" y2="605"/>
+		<line class="st3" x1="343.2" y1="0.8" x2="343.2" y2="605"/>
+		<line class="st3" x1="313.1" y1="0.8" x2="313.1" y2="605"/>
+		<line class="st3" x1="283.1" y1="0.8" x2="283.1" y2="605"/>
+		<line class="st3" x1="253.1" y1="0.8" x2="253.1" y2="605"/>
+		<line class="st3" x1="193" y1="0.8" x2="193" y2="605"/>
+		<line class="st3" x1="163" y1="0.8" x2="163" y2="605"/>
+		<line class="st3" x1="223" y1="0.8" x2="223" y2="605"/>
 	</g>
 </g>
 </svg>
