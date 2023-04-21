@@ -28,10 +28,16 @@
 #heroTitle {
   font-weight: bold;
   color: white;
-  padding-top: 18vh;
+  padding-top: 13vh;
   font-size: 10vw;
   line-height: 6.5vw;
   animation: heroTitleAnim 1s ease-out .75s 1 normal both;
+}
+
+.dots {
+  position: absolute;
+  width: 60vw;
+  top: -30vh;
 }
 
 @keyframes heroTitleAnim {

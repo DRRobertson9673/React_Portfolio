@@ -6,17 +6,20 @@
     margin-bottom: 120px;
 }
 
-.introText {
+#introText {
     width: 50%;
     margin-right: 8%;
+}
+
+.Text {
     color: white;
     font-size: 15px;
     font-weight: 300;
     line-height: 27px;
 }
 
-.introText h1 {
-    font-size: 50px;
+h1 {
+    font-size: 60px;
     margin-bottom: 40px;
     opacity: 0;
     transition: opacity .5s;
@@ -39,12 +42,12 @@
     }
 }
 
-.introText h2 {
+h2 {
     font-size: 18px;
     margin-bottom: 30px;
 }
 
-.introText span {
+span {
     color: var(--myGreen);
 }
 
@@ -60,13 +63,13 @@
         flex-direction: column;
     }
 
-    .introText {
+    .Text {
         width: 80%;
         margin-left: 10%;
         margin-right: 10%;
     }
 
-    .introText h1 {
+    .h1 {
         font-size: 35px;
         margin-bottom: 20px;
         opacity: 0;

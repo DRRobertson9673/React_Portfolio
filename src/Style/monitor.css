@@ -3,7 +3,7 @@
 }
 
 #monitorAnimation {
-    width:100%;
+    width: 100%;
     position: relative;
     margin: auto;
     margin-top: 30px;
@@ -159,6 +159,12 @@
     }
 }
 
+.shine {
+    position: absolute;
+    top: 3.5%;
+    width: 49.8%;
+}
+
 .screen1 {
     position: absolute;
     width: 40%;
@@ -189,43 +195,103 @@
 }
 
 @keyframes screenAnim {
-	0% {
-		transform: scale(0.5);
-	}
+    0% {
+        transform: scale(0.5);
+    }
 
-	100% {
-		transform: scale(1);
-	}
+    100% {
+        transform: scale(1);
+    }
 }
 
 @keyframes vibrateAnim {
-	0% {
-		transform: translate(0);
-	}
+    0% {
+        transform: translate(0);
+    }
 
-	20% {
-		transform: translate(-3px, 3px);
-	}
+    20% {
+        transform: translate(-3px, 3px);
+    }
 
-	40% {
-		transform: translate(-2px, -2px);
-	}
+    40% {
+        transform: translate(-2px, -2px);
+    }
 
-	60% {
-		transform: translate(2px, 2px);
-	}
+    60% {
+        transform: translate(2px, 2px);
+    }
 
-	80% {
-		transform: translate(2px, -2px);
-	}
+    80% {
+        transform: translate(2px, -2px);
+    }
 
-	100% {
-		transform: translate(0);
-	}
+    100% {
+        transform: translate(0);
+    }
 }
+
+.sparkles1 {
+    position: absolute;
+    width: 4%;
+    top: 40%;
+    right: 8%;
+    opacity: 0;
+    transition: opacity .5s;
+    transition-delay: 1.5s;
+}
+
+@keyframes sparkles1Anim {
+    0% {
+        transform: scale(0) rotate(0deg);
+    }
+    30% {
+        transform: scale(0) rotate(0deg);
+    }
+    50% {
+        transform: scale(1) rotate(90deg);
+    }
+    70% {
+        transform: scale(0) rotate(180deg);
+    }
+    100% {
+        transform: scale(0) rotate(180deg);
+    }
+}
+
+.sparkles2 {
+    position: absolute;
+    width: 5%;
+    top: 10%;
+    left: 7.5%;
+    opacity: 0;
+    transition: opacity .5s;
+    transition-delay: 1s;
+}
+
+@keyframes sparkles2Anim {
+    0% {
+        transform: scale(0) rotate(0deg);
+    }
+    30% {
+        transform: scale(0) rotate(0deg);
+    }
+    50% {
+        transform: scale(1) rotate(90deg);
+    }
+    70% {
+        transform: scale(0) rotate(180deg);
+    }
+    100% {
+        transform: scale(0) rotate(180deg);
+    }
+}
+
+
+
+
+
+
 
 /*-----------------*/
 
-@media screen and (max-width: 575px) {
-
-}
+@media screen and (max-width: 575px) {}

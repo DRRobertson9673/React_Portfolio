@@ -46,7 +46,7 @@ function Intro() {
 
     return (
         <div id="introArea">
-            <div className="introText">
+            <div id="introText" className="Text">
                 <h1>Hello. I'm Dave</h1>
                 <h2>I'm a <span>graphic designer</span> and <span>frontend developer</span> living in Devon and I'm passionate about creating things that are beautiful both inside and out.</h2>
                 <div id="socialLinksTrigger"></div>

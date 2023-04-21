@@ -9,6 +9,9 @@ import element5 from '../Images/Monitor/element5.svg';
 import screen1 from '../Images/Monitor/Screen1.svg';
 import screen2 from '../Images/Monitor/Screen2.svg';
 import screen3 from '../Images/Monitor/Screen3.svg';
+import sparkles1 from '../Images/Monitor/Sparkles1.svg';
+import sparkles2 from '../Images/Monitor/Sparkles2.svg';
+import shine from '../Images/Monitor/Shine.svg';
 import React, { useEffect } from 'react';
 import $ from 'jquery';
 import { Parallax } from 'react-scroll-parallax';
@@ -59,6 +62,14 @@ function Monitor() {
                     opacity: 1,
                     animation: `element1Anim 1.5s ease 1s 1 normal forwards`
                 })
+                $('.sparkles1').css({
+                    opacity: 1,
+                    animation: `sparkles1Anim 5s linear 1.5s infinite forwards`
+                })
+                $('.sparkles2').css({
+                    opacity: 1,
+                    animation: `sparkles2Anim 4s linear 1s infinite forwards`
+                })
             }
         }
     }, []);
@@ -67,7 +78,7 @@ function Monitor() {
         <div>
             <div id="marker"></div>
             <div id="monitorAnimation">
-                <Parallax speed={+5} id="parallaxMonitor">
+                <Parallax speed={+10} id="parallaxMonitor">
                     <img id="monitor" src={monitor} alt="" />
                     <img className="profile" src={profile} alt="" />
                     <img className="element1" src={element1} alt="" />
@@ -75,10 +86,13 @@ function Monitor() {
                     <img className="element3" src={element3} alt="" />
                     <img className="element4" src={element4} alt="" />
                     <img className="element5" src={element5} alt="" />
+                    <img className="shine" src={shine} alt="" />
                 </Parallax>
                 <img className="screen1" src={screen1} alt="screen1" />
                 <img className="screen2" src={screen2} alt="screen2" />
                 <img className="screen3" src={screen3} alt="screen3" />
+                <img className="sparkles1" src={sparkles1} alt="sparkle" />
+                <img className="sparkles2" src={sparkles2} alt="sparkle" />
             </div>
         </div>
     );
