@@ -59,6 +59,7 @@ const ContactForm = () => {
                         onSubmit={handleSubmit}
                         method="POST"
                         target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <div>
                             <input

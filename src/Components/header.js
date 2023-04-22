@@ -27,15 +27,12 @@ function Header() {
     }, false);
 
     function gotoAbout() {
-        const offset = (window.innerWidth) / 10;
-        $('html, body').animate({ scrollTop: $("#introArea").offset().top - offset }, 900);
+        $('html, body').animate({ scrollTop: $("#introArea").offset().top }, 900);
     }
     function gotoProjects() {
-        const offset = (window.innerWidth) / 20;
         $('html, body').animate({ scrollTop: $("#projectsArea").offset().top }, 900);
     }
     function gotoContact() {
-        const offset = (window.innerWidth) / 50;
         $('html, body').animate({ scrollTop: $("#contactArea").offset().top }, 900);
     }
 
@@ -54,8 +51,8 @@ function Header() {
                 </div>
             </nav>
             <div id="socialLinks">
-                <a href="https://www.linkedin.com/in/david-robertson-67a895259/" target="_blank" ><div id="LinkedIn" className="socialLink"></div></a>
-                <a href="https://github.com/DRRobertson9673" target="_blank" ><div id="GitHub" className="socialLink"></div></a>
+                <a href="https://www.linkedin.com/in/david-robertson-67a895259/" target="_blank" rel="noopener noreferrer"><div id="LinkedIn" className="socialLink"></div></a>
+                <a href="https://github.com/DRRobertson9673" target="_blank" rel="noopener noreferrer"><div id="GitHub" className="socialLink"></div></a>
                 <div id="navLine"></div>
             </div>
         </div>
