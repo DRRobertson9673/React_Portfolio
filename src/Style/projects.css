@@ -1,20 +1,17 @@
-#projectsArea {
-    z-index: 10;
+#projectsGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    padding-left: 10vw;
-    height: 90vh;
-    width: 80vw;
-    margin-bottom: 150px;
+    height: 80vh;
+    width: 100%;
 }
 
 #projectsTitle {
     color: white;
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
 }
 
 #project1 {
@@ -45,7 +42,7 @@
     transition: opacity 0.3s ease-in-out;
     opacity: 0;
     padding-left: 4vw;
-    padding-right: 30%;
+    padding-right: 30vw;
     position: relative;
 }
 

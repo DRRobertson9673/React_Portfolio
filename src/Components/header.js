@@ -32,7 +32,7 @@ function Header() {
     }
     function gotoProjects() {
         const offset = (window.innerWidth) / 20;
-        $('html, body').animate({ scrollTop: $("#projectsTitle").offset().top - offset }, 900);
+        $('html, body').animate({ scrollTop: $("#projectsArea").offset().top }, 900);
     }
     function gotoContact() {
         const offset = (window.innerWidth) / 50;

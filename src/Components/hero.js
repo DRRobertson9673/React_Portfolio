@@ -1,8 +1,6 @@
 import "../Style/hero.css"
 import React, { useEffect } from 'react';
-import dots from '../Images/BackdropShapes.svg';
 import $ from 'jquery';
-import { Parallax } from 'react-scroll-parallax';
 
 function Hero() {
 

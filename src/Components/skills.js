@@ -68,7 +68,6 @@ function Skills() {
 
 
     return (
-        <div id="skillsArea">
             <div id="skillsRow">
                 <div id="photoshop" className="skill">
                     <img className="skillIcon" src={photoshop} alt="photoshop" />
@@ -119,7 +118,6 @@ function Skills() {
                     <p>Git</p>
                 </div>
             </div>
-        </div>
     );
 }
 

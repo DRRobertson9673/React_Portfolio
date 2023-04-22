@@ -2,10 +2,6 @@ import "../Style/projects.css"
 import React, { useEffect } from 'react';
 import $ from 'jquery';
 
-
-
-
-
 function Projects() {
 
     useEffect(() => {
@@ -25,9 +21,9 @@ function Projects() {
     }, []);
 
     return (
-        <div>
-            <h1 id="projectsTitle">Recent work.</h1>
-            <div id="projectsArea">
+        <div className="section" id="projectsArea">
+            <h1 id="projectsTitle">Recent work<span>.</span></h1>
+            <div id="projectsGrid">
                 <div id="project1" class="project">
                     <div class="projectOverlay">
                         <div class="projectInfo">

@@ -1,19 +1,6 @@
-#skillsArea {
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 100px;
-}
-
-#skillsArea h1 {
-    font-size: 50px;
-    color: white;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
 #skillsRow {
+    width: 100%;
     display: flex;
-    justify-content: center;
     justify-content: space-between;
 }
 

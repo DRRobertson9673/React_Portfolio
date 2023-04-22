@@ -1,0 +1,61 @@
+#orbsContainer {
+    z-index: -50;
+    position: absolute;
+    top: 0px;
+    height: 500vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.orb {
+    position: absolute;
+    opacity: .5;
+}
+
+#orb1 {
+    height: 11vw;
+    left: -3vw;
+    top:25%;
+}
+
+#orb2 {
+    height: 20vw;
+    right: -10vw;
+    top: 30%;
+}
+
+#orb3 {
+    height: 30vw;
+    right: 5vw;
+    top: 50%;
+}
+
+#orb4 {
+    height: 25vw;
+    left: 30vw;
+    top: 80%;
+}
+
+#orb5 {
+    height: 18vw;
+    left: 60vw;
+    top: 61%;
+}
+
+#orb6 {
+    height: 20vw;
+    left: 5vw;
+    top: 18%;
+}
+
+#orb7 {
+    height: 8vw;
+    left: 45vw;
+    top: 90%;
+}
+
+#orb8 {
+    height:17vw;
+    left: 3vw;
+    top: 48%;
+}
