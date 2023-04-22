@@ -18,20 +18,20 @@
 }
 
 #project1 {
-    grid-area: 1 / 1 / 4 / 5;
+    grid-area: 1 / 1 / 3 / 5;
     background-image: url(../Images/screenshotFitness.png);
     background-position: center;
     transition: background-image .5s;
 }
 
 #project2 {
-    grid-area: 4 / 1 / 6 / 3;
+    grid-area: 3 / 1 / 5 / 3;
     background-image: url(../Images/screenshotMovie.png);
     background-position-x: center;
 }
 
 #project3 {
-    grid-area: 4 / 3 / 6 / 5;
+    grid-area: 3 / 3 / 5 / 5;
     background-image: url(../Images/screenshotWeather.png);
 }
 
