@@ -39,7 +39,7 @@ function Projects() {
                         <div className="projectInfo">
                             <h3 className="projectName">PERFECT<br />MOVIE NIGHT</h3>
                             <p className="projectDescription"><b>Built with: </b>HTML, Javascript, CSS</p>
-                            <a href="https://github.com/DRRobertson9673/Perfect_Movie_Night" target="_blank" className="projectLink"><p>VIEW THE CODE <span className="linkArrow">&#9654;</span></p></a>
+                            <a href="https://github.com/DRRobertson9673/Perfect_Movie_Night" target="_blank" rel="noopener noreferrer" className="projectLink"><p>VIEW THE CODE <span className="linkArrow">&#9654;</span></p></a>
                             <a href="https://drrobertson9673.github.io/Perfect_Movie_Night/" target="_blank" rel="noopener noreferrer" className="projectLink"><p>VIEW THE APP <span className="linkArrow">&#9654;</span></p></a>
                         </div>
                     </div>
