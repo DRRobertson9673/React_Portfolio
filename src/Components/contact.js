@@ -45,9 +45,7 @@ const ContactForm = () => {
 
     return (
         <div id="contactArea" className="section">
-
             <div className="alignTop">
-                
                 <div id="contactText" className="Text">
                     <h1 id="contactTitle">Give me a<br />shout<span>.</span></h1>
                     <p>I am interested in a full-time frontend development or web design role but am equally keen for freelance opportunities. Whatever it is - please get in contact.</p>

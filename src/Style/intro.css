@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-#introArea {
+#introContent {
     display: flex;
     flex-direction: row;
     margin-bottom: 60px;
@@ -68,7 +68,7 @@ span {
 /*-----------------*/
 
 @media screen and (max-width: 575px) {
-    #introArea {
+    #introContent {
         flex-direction: column;
     }
 
