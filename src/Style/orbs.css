@@ -2,7 +2,7 @@
     z-index: -50;
     position: absolute;
     top: 0px;
-    height: 500vh;
+    height: 400vh;
     width: 100vw;
     overflow: hidden;
 }
@@ -15,7 +15,7 @@
 #orb1 {
     height: 11vw;
     left: -3vw;
-    top:25%;
+    top:40%;
 }
 
 #orb2 {
@@ -27,13 +27,13 @@
 #orb3 {
     height: 30vw;
     right: -4vw;
-    top: 50%;
+    top: 55%;
 }
 
 #orb4 {
-    height: 25vw;
-    left: 30vw;
-    top: 80%;
+    height: 12vw;
+    left: 70vw;
+    bottom: 0;
 }
 
 #orb5 {
@@ -45,17 +45,17 @@
 #orb6 {
     height: 20vw;
     left: 5vw;
-    top: 18%;
+    top: 26%;
 }
 
 #orb7 {
-    height: 8vw;
-    left: 45vw;
-    top: 90%;
+    height: 25vw;
+    left: 30vw;
+bottom: 0;
 }
 
 #orb8 {
     height:17vw;
     left: 3vw;
-    top: 48%;
+    top: 65%;
 }

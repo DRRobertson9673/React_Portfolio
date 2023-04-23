@@ -1,18 +1,23 @@
-#skillsRow {
-    width: 100%;
+#skillsArea {
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#skillsRow {
+    max-width: 100%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(12, 1fr);
 }
 
 .skill {
     filter: brightness(.4) grayscale();
-    align-items: center;
     text-align: center;
     color: var(--myGreen);
     font-size: 13px;
-    line-height: 20px;
+    line-height: 15px;
     font-weight: 300;
-    margin-bottom: 30px;
     opacity: 0;
 }
 
@@ -29,5 +34,54 @@
 }
 
 .skillIcon {
-    height: 3vw;
+    height: 45px;
+}
+
+.fullOpacity {
+    filter: brightness(1);
+    opacity: 1;
+}
+
+.skillsBubble {
+    height: 90px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1190px) {
+    #skillsRow {
+        flex: auto;
+        column-gap: 3rem;
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+
+@media screen and (max-width: 952px) {
+    #skillsRow {
+        column-gap: 5rem;
+        row-gap: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #skillsArea {
+        flex-direction: column;
+    }
+    .skillsBubble {
+        height: 70px;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    .skillIcon {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #skillsArea {
+        width: 80%;
+    }
+    #skillsRow {
+        column-gap: 2rem;
+        row-gap: 2rem;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

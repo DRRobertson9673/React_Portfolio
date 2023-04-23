@@ -71,5 +71,32 @@
 .hello {
     margin-top: 35px;
     height: 125px;
+}
 
+@media screen and (max-width: 952px) {
+    #contactArea {
+        margin-top: 26vh;
+        padding-bottom: 130px;
+    }
+
+    .hello {
+        margin-top: 35px;
+        height: 70px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .alignTop {
+        flex-direction: column;
+    }
+    #contactText {
+        width: 85%;
+        padding-right: 0vw;
+        margin-left: 5%;
+    }
+    #contactForm {
+        text-align: center;
+        width: 70vw;
+        margin-left: 5%;
+    }
 }

@@ -5,7 +5,7 @@ import { Parallax } from 'react-scroll-parallax';
 function Orbs2() {
 
     return (
-        <Parallax speed={+50} id="orbsContainer">
+        <Parallax speed={+35} id="orbsContainer">
                     <img id="orb5" className="orb" src={orb} alt="orb" />
                     <img id="orb6" className="orb" src={orb} alt="orb" />
                     <img id="orb7" className="orb" src={orb} alt="orb" />

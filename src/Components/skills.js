@@ -13,6 +13,7 @@ import vsc from '../Images/icons/vsc-green.svg';
 import git from '../Images/icons/git-green.svg';
 import React, { useEffect } from 'react';
 import $ from 'jquery';
+import skillsBubble from '../Images/Skills.svg';
 
 function Skills() {
 
@@ -68,6 +69,10 @@ function Skills() {
 
 
     return (
+        <div id="skillsArea">
+            <div>
+                <img className="skillsBubble" src={skillsBubble} alt="" />
+            </div>
             <div id="skillsRow">
                 <div id="photoshop" className="skill">
                     <img className="skillIcon" src={photoshop} alt="photoshop" />
@@ -111,13 +116,14 @@ function Skills() {
                 </div>
                 <div id="vsc" className="skill">
                     <img className="skillIcon" src={vsc} alt="vsc" />
-                    <p>Visual Studio</p>
+                    <p>VSC</p>
                 </div>
                 <div id="git" className="skill">
                     <img className="skillIcon" src={git} alt="git" />
                     <p>Git</p>
                 </div>
             </div>
+        </div>
     );
 }
 

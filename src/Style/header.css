@@ -166,21 +166,6 @@ nav .portfolio {
     background-color: var(--myGreen);
 }
 
-/*-----------------*/
-
-@media screen and (max-width: 575px) {
-    nav {
-        padding: 3px;
-    }
-
-    #navLinks {
-        display: none;
-    }
-
-    #lilSkull {
-        display: none;
-    }
-}
 
 #socialLinks {
     display: flex;
@@ -255,4 +240,15 @@ nav .portfolio {
 
 #GitHub:hover {
     background-image: url(../Images/GitHubLogoGreen.svg);
+}
+
+/*-----------------*/
+
+@media screen and (max-width: 952px) {
+    nav {
+        display: none;
+    }
+    #lilSkull {
+        display: none;
+    }
 }
