@@ -110,5 +110,6 @@
 @media screen and (max-height: 575px) {
     #contactArea {
         height: 100%;
+        padding-bottom: 100px;
     }
 }
