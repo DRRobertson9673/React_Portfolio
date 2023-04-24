@@ -1,5 +1,6 @@
 import "../Style/header.css"
 import $ from 'jquery';
+import myResume from "../Images/myResume.pdf"
 
 function Header() {
 
@@ -40,13 +41,13 @@ function Header() {
         <div>
             <div id="lilSkull" onClick={showNav}></div>
             <nav>
-                <div id="brand"><span className="name">DAVID ROBERTSON</span><span className="portfolio"> PORTFOLIO</span></div>
+                <div id="brand"><span className="name">DAVID</span><span className="portfolio">ROBERTSON</span></div>
                 <div>
                     <ul id="navLinks">
                         <p className="nav-link" onClick={gotoAbout}>ABOUT</p>
                         <p className="nav-link" onClick={gotoProjects}>PROJECTS</p>
                         <p className="nav-link" onClick={gotoContact}> CONTACT</p>
-                        <p className="resume-link">RESUME</p>
+                        <a href={myResume} download="David Robertson's Resume "><p className="resume-link">RESUM&Eacute;</p></a>
                     </ul>
                 </div>
             </nav>
