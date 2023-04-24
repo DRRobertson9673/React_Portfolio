@@ -112,3 +112,9 @@ span {
         width: 100%;
     }
 }
+
+@media screen and (max-height: 575px) {
+    .section {
+        margin-bottom: 100px;
+    }
+  }
