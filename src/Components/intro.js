@@ -10,13 +10,13 @@ function Intro() {
         window.addEventListener("scroll", onScroll);
         function onScroll() {
             const scrollTop = $(window).scrollTop();
-            const Offset = document.getElementById('introArea').offsetTop;
+            const Offset = document.getElementById('hello').offsetTop;
             const vh = (window.innerHeight);
 
             if ((scrollTop + (vh)) > Offset) {
                 $('#hello').css({
                     opacity: 1,
-                    Animation: `introTextAnim 1s ease-in-out 0s 1 normal both`
+                    Animation: `introTextAnim 1s ease-in-out 1s 1 normal both`
                 })
             }
         }

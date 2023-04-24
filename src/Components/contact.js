@@ -23,7 +23,7 @@ const ContactForm = () => {
             if ((scrollTop + (vh)) > Offset) {
                 $('#contactTitle').css({
                     opacity: 1,
-                    Animation: `introTextAnim 1s ease-in-out 0s 1 normal both`
+                    Animation: `introTextAnim 1s ease-in-out 0.5s 1 normal both`
                 })
             }
         }

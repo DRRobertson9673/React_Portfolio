@@ -1,0 +1,36 @@
+#thanksContent {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+  
+  #thanksTitle {
+    font-weight: bold;
+    color: white;
+    font-size: 10vw;
+    line-height: 6.5vw;
+    animation: heroTitleAnim 1s ease-out .75s 1 normal both;
+  }
+  
+  @keyframes heroTitleAnim {
+    0% {
+      filter: blur(12px);
+      opacity: 0;
+    }
+  
+    100% {
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  
+  #thanksTitleSmall {
+    color: var(--myGreen);
+    font-family: 'Yellowtail', cursive;
+    font-size: 5vw;
+    animation: heroTitleSmallAnim 1s ease-in-out 1s 1 normal both;
+    padding-bottom: 15vh;
+  }
