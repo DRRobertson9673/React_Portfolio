@@ -25,7 +25,7 @@ function App() {
               <Orbs />
               <Orbs2 />
             </ParallaxProvider>} />
-          <Route path="thank_you" element={<ThankYou />} />
+          <Route path="thankyou" element={<ThankYou />} />
         </Routes>
       </div>
     </Router>
