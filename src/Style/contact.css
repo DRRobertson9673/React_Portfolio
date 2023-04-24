@@ -4,8 +4,8 @@
 }
 
 #contactText {
-    width: 30vw;
-    padding-right: 10vw;
+    width: 60%;
+    margin-right: 10vw;
 }
 
 #contactTitle {
@@ -15,7 +15,7 @@
 
 #contactForm {
     text-align: center;
-    width: 40vw;
+    width: 100%;
 }
 
 .inputField {
@@ -70,33 +70,41 @@
 
 .hello {
     margin-top: 35px;
-    height: 125px;
+    height: 100px;
 }
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 992px) {
     #contactArea {
-        margin-top: 26vh;
-        padding-bottom: 130px;
+        height: 100vh;
     }
 
     .hello {
         margin-top: 35px;
         height: 70px;
     }
+
+    #contactText {
+        width: 100%;
+        margin-right: 5vw;
+    }
 }
 
-@media screen and (max-width: 575px) {
+
+
+
+@media screen and (max-width: 775px) {
     .alignTop {
         flex-direction: column;
     }
-    #contactText {
-        width: 85%;
-        padding-right: 0vw;
-        margin-left: 5%;
+
+    #messageArea {
+        height: 150px;
+    }
+
+    .hello {
+        display: none;
     }
     #contactForm {
-        text-align: center;
-        width: 70vw;
-        margin-left: 5%;
+        margin-top: 40px;
     }
 }

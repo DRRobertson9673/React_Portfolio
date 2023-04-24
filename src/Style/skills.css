@@ -5,7 +5,6 @@
 }
 
 #skillsRow {
-    max-width: 100%;
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(12, 1fr);
@@ -55,33 +54,29 @@
     }
 }
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 992px) {
+    #skillsArea {
+        height: 100vh;
+    }
+
     #skillsRow {
-        column-gap: 5rem;
         row-gap: 2rem;
         grid-template-columns: repeat(4, 1fr);
     }
 
-    #skillsArea {
-        flex-direction: column;
-    }
     .skillsBubble {
-        height: 70px;
-        margin-right: 0px;
-        margin-bottom: 30px;
+        display: none;
     }
+
     .skillIcon {
-        height: 60px;
+        height: 70px;
     }
 }
 
 @media screen and (max-width: 575px) {
-    #skillsArea {
-        width: 80%;
-    }
     #skillsRow {
         column-gap: 2rem;
-        row-gap: 2rem;
-        grid-template-columns: repeat(4, 1fr);
+        row-gap: 3rem;
+        grid-template-columns: repeat(3, 1fr);
     }
 }

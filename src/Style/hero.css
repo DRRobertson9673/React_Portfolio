@@ -67,16 +67,22 @@
 
 /*-----------------*/
 
+
+@media screen and (max-width: 992px) {
+  #hero {
+    height: 100vh;
+  }
+}
+
 @media screen and (max-width: 575px) {
   #hero {
     background-attachment: scroll;
     height: 100vh;
-    margin-bottom: 10px;
   }
 
   #heroTitle {
     font-size: 5rem;
-    line-height: 3.25rem;
+    line-height: 3.5rem;
   }
 
   #heroTitleSmall {

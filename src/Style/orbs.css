@@ -15,7 +15,7 @@
 #orb1 {
     height: 11vw;
     left: -3vw;
-    top:40%;
+    top: 40%;
 }
 
 #orb2 {
@@ -51,11 +51,129 @@
 #orb7 {
     height: 25vw;
     left: 30vw;
-bottom: 0;
+    bottom: 0;
 }
 
 #orb8 {
-    height:17vw;
+    height: 17vw;
     left: 3vw;
     top: 65%;
+}
+
+@media screen and (max-width: 992px) {
+    #orbsContainer {
+        z-index: -50;
+        position: absolute;
+        top: 0px;
+        height: 550vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    #orb1 {
+        height: 30vw;
+        left: 5vw;
+        top: 13%;
+    }
+
+    #orb2 {
+        height: 25vw;
+        left: -2vw;
+        top: 30%;
+    }
+
+    #orb3 {
+        height: 40vw;
+        left: 8vw;
+        top: 48%;
+    }
+
+    #orb4 {
+        height: 45vw;
+        left: 5vw;
+        bottom: 0%;
+    }
+
+    #orb5 {
+        height: 20vw;
+        left: 90vw;
+        top: 25%;
+    }
+
+    #orb6 {
+        height: 15vw;
+        left: 60vw;
+        top: 40%;
+    }
+
+    #orb7 {
+        height: 30vw;
+        left: 80vw;
+        top: 53%;
+    }
+
+    #orb8 {
+        height: 35vw;
+        left: -5vw;
+        bottom: 0%;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #orbsContainer {
+        z-index: -50;
+        position: absolute;
+        top: 0px;
+        height: 520vh;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    #orb1 {
+        height: 50vw;
+        left: -2vw;
+        top: 10%;
+    }
+
+    #orb2 {
+        height: 35vw;
+        left: 10vw;
+        top: 30%;
+    }
+
+    #orb3 {
+        height: 60vw;
+        left: -8vw;
+        top: 48%;
+    }
+
+    #orb4 {
+        height: 45vw;
+        left: 5vw;
+        bottom: 0%;
+    }
+
+    #orb5 {
+        height: 20vw;
+        left: 90vw;
+        top: 25%;
+    }
+
+    #orb6 {
+        height: 15vw;
+        left: 60vw;
+        top: 40%;
+    }
+
+    #orb7 {
+        height: 30vw;
+        left: 80vw;
+        top: 80%;
+    }
+
+    #orb8 {
+        height: 65vw;
+        left: -25vw;
+        bottom: 0%;
+    }
 }

@@ -242,9 +242,18 @@ nav .portfolio {
     background-image: url(../Images/GitHubLogoGreen.svg);
 }
 
+#EmailLink {
+    margin-bottom: 14px;
+    background-image: url(../Images/EmailWhite.svg);
+}
+
+#EmailLink:hover {
+    background-image: url(../Images/EmailGreen.svg);
+}
+
 /*-----------------*/
 
-@media screen and (max-width: 952px) {
+@media screen and (max-width: 992px) {
     nav {
         display: none;
     }

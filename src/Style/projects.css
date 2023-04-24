@@ -1,3 +1,7 @@
+#projectsTitle {
+    color: white;
+}
+
 #projectsGrid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -6,11 +10,6 @@
     grid-row-gap: 10px;
     height: 80vh;
     width: 100%;
-}
-
-#projectsTitle {
-    color: white;
-    margin-bottom: 20px;
 }
 
 #project1 {
@@ -50,8 +49,8 @@
 }
 
 .projectName {
-    font-size: 40px;
-    line-height: 40px;
+    font-size: 4vw;
+    line-height: 4vw;
     margin-bottom: 5px;
 }
 
@@ -60,15 +59,10 @@
     bottom: 10%;
 }
 
-.projectType {
-    padding-top: 3vw;
-    font-weight: 200;
-}
-
 .projectDescription {
     font-weight: 300;
     font-size: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 1.5vw;
 }
 
 .projectLink {
@@ -76,6 +70,8 @@
     color: white;
     transition: all 0.2s ease-in-out;
     cursor: pointer;
+    font-size: 1.5vw;
+    line-height: 2vw;
 }
 
 .projectLink p {
@@ -96,11 +92,55 @@
     color: black;
 }
 
-@media screen and (max-width: 952px) {
-    #projectsTitle {
-margin-top: 200px;
+@media screen and (max-width: 992px) {
+    #projectsArea {
+        height: 100vh;
     }
+
     #projectsGrid {
-        width: 90%;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    #projectsGrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        height: 80vh;
+        width: 100%;
+    }
+
+    #project1 {
+        grid-area: 1 / 1 / 2 / 2;
+        background-image: url(../Images/screenshotFitness.png);
+        background-position: center;
+        transition: background-image .5s;
+    }
+
+    #project2 {
+        grid-area: 2 / 1 / 3 / 2;
+        background-image: url(../Images/screenshotMovie.png);
+        background-position: center;
+    }
+
+    #project3 {
+        grid-area: 3 / 1 / 4 / 2;
+        background-image: url(../Images/screenshotWeather.png);
+    }
+
+    .project {
+        background-size: cover;
+    }
+
+    .projectLink {
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease-in-out;
+        cursor: pointer;
+        font-size: 13px;
+        line-height: 13px;
     }
 }

@@ -51,6 +51,7 @@ function Header() {
                 </div>
             </nav>
             <div id="socialLinks">
+                <div id="EmailLink" className="socialLink" onClick={gotoContact}></div>
                 <a href="https://www.linkedin.com/in/david-robertson-67a895259/" target="_blank" rel="noopener noreferrer"><div id="LinkedIn" className="socialLink"></div></a>
                 <a href="https://github.com/DRRobertson9673" target="_blank" rel="noopener noreferrer"><div id="GitHub" className="socialLink"></div></a>
                 <div id="navLine"></div>
