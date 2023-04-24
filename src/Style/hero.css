@@ -89,3 +89,10 @@
     font-size: 2rem;
   }
 }
+
+@media screen and (max-height: 575px) {
+  #hero {
+    background-attachment: scroll;
+    height: 100vh;
+  }
+}

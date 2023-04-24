@@ -106,3 +106,9 @@
         margin-top: 40px;
     }
 }
+
+@media screen and (max-height: 575px) {
+    #contactArea {
+        height: 100%;
+    }
+}
