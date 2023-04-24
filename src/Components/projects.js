@@ -81,33 +81,35 @@ function Projects() {
 
             <div id="projectsGridGD" className="hidden">
                 <div id="GD1" className="GDproject">
-                <NavLink to="/WhiteElephant">
-                    <div className="GDOverlay">
-                        <div className="projectInfo">
-                            <h3 className="projectName">POSTER</h3>
-                        </div>
-                    </div>
+                    <NavLink to="/WhiteElephant" target="_blank" rel="noopener noreferrer">
+                        <div className="GDOverlay">CLICK.</div>
                     </NavLink>
                 </div>
                 <div id="GD2" className="GDproject">
                     <div className="GDOverlay">
-                        <div className="projectInfo">
-                            <h3 className="projectName">POSTER</h3>
-                        </div>
+                        <NavLink to="/WhiteElephant" target="_blank" rel="noopener noreferrer">
+                            <div className="GDOverlay">
+                                click
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
                 <div id="GD3" className="GDproject">
                     <div className="GDOverlay">
-                        <div className="projectInfo">
-                            <h3 className="projectName">POSTER</h3>
-                        </div>
+                        <NavLink to="/WhiteElephant" target="_blank" rel="noopener noreferrer">
+                            <div className="GDOverlay">
+                                click
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
                 <div id="GD4" className="GDproject">
                     <div className="GDOverlay">
-                        <div className="projectInfo">
-                            <h3 className="projectName">POSTER</h3>
-                        </div>
+                        <NavLink to="/WhiteElephant" target="_blank" rel="noopener noreferrer">
+                            <div className="GDOverlay">
+                                click
+                            </div>
+                        </NavLink>
                     </div>
                 </div>
                 <div id="GD5" className="GDproject">

@@ -1,8 +1,9 @@
+import "../Style/GDpage.css"
 import React from 'react'
 
 const WhiteElephant = () => {
   return (
-    <div>
+    <div className='GDpage'>
 
     </div>
   )
