@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import $ from 'jquery';
 import "../Style/contact.css"
 import Hello from '../Images/Hello.svg';
+import heartGreen from '../Images/HeartGreen.svg';
+import heartWhite from '../Images/HeartWhite.svg';
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/b5c2df90-e056-11ed-8a44-d1f0173776c3"; // TODO - fill on the later step
 
@@ -39,7 +41,11 @@ const ContactForm = () => {
                         <img className="hello" src={Hello} alt="" />
                     </div>
                     <div id="contactForm">
-                        <div className="thankMsg">Thank you!</div>
+                        <div className="thankMsg">
+                            <img className="heartGreen" src={heartGreen} alt="" />
+                            <img className="heartWhite" src={heartWhite} alt="" />
+                            <img className="heartWhite2" src={heartWhite} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

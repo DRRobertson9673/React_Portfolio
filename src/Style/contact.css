@@ -58,11 +58,6 @@
     background-color: var(--myGreen);
 }
 
-.thankMsg {
-    margin-top: 100px;
-    color: white;
-}
-
 .alignTop {
     display: flex;
     flex-direction: row;
@@ -72,6 +67,72 @@
 .hello {
     margin-top: 35px;
     height: 100px;
+}
+
+.thankMsg {
+    position: relative;
+}
+
+.heartGreen {
+    width: 40%;
+    margin-top: 40px;
+    animation: greenHeartAnim 10s ease 0s infinite normal forwards;
+}
+@keyframes greenHeartAnim {
+	0% {
+		transform: translate(0);
+	}
+
+	20% {
+		transform: translate(-5px, 5px);
+	}
+
+	40% {
+		transform: translate(-5px, -5px);
+	}
+
+	60% {
+		transform: translate(5px, 5px);
+	}
+
+	80% {
+		transform: translate(5px, -5px);
+	}
+
+	100% {
+		transform: translate(0);
+	}
+}
+
+.heartWhite {
+    z-index: 10;
+    position: absolute;
+    top: 30%;
+    width: 3%;
+    animation: whiteHeartAnim 5s ease 0s infinite normal forwards;
+
+}
+.heartWhite2 {
+    z-index: 10;
+    position: absolute;
+    top: 80%;
+    left:33%;
+    width: 6%;
+    animation: whiteHeartAnim 5s ease 1s infinite normal forwards;
+
+}
+@keyframes whiteHeartAnim {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.25);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
 
 @media screen and (max-width: 992px) {
