@@ -117,4 +117,8 @@ span {
     .section {
         margin-bottom: 100px;
     }
+    .introImage {
+        height: 100%;
+        margin-bottom: 100px;
+    }
   }
