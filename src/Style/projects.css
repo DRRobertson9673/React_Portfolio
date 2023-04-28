@@ -267,4 +267,9 @@
     .navigationArrowGD {
         padding-bottom: 20px;
     }
+    #viewportGD {
+        height: 100vh;
+        width: 80vw;
+        padding-right: 0;
+    }
 }
