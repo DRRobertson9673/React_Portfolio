@@ -7,7 +7,6 @@ import ContactForm from './Components/contact';
 import Orbs from './Components/orbs';
 import Orbs2 from './Components/orbs2';
 import ThankYou from './Components/thankYou';
-import WhiteElephant from './Components/WhiteElephant';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -27,7 +26,6 @@ function App() {
               <Orbs2 />
             </ParallaxProvider>} />
           <Route path="/thankyou" element={<ThankYou />} />
-          <Route path="/WhiteElephant" element={<WhiteElephant />} />
         </Routes>
       </div>
     </Router>

@@ -93,7 +93,7 @@
 }
 
 #portfolioSelector {
-    display: none;
+    display: flex;
 }
 
 .selector {
@@ -115,135 +115,68 @@
 }
 
 #projectsGridGD {
-    display: grid;
-    grid-template-columns: repeat(auto-fit(4, 1fr));
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    height: 75vh;
-    width: 100%;
-}
-
-.GDOverlay {
     display: flex;
-    background-color: var(--myGreen);
-    height: 100%;
-    font-size: 40px;
-    font-weight: 800;
-    color: black;
-    align-items: center;
     justify-content: center;
-    transition: opacity 0.3s ease-in-out;
-    opacity: 0;
 }
 
-.GDproject {
-    background-size: cover;
+#navigationAndCurrentInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.GDproject:hover .GDOverlay {
-    opacity: 1;
+#navigationGD {
+    width: 10vw;
 }
 
-#GD1 {
-    grid-area: 1 / 1 / 2 / 2;
-    background-image: url(../Images/GDPortfolio/WhiteElephant.jpg);
-    background-position: center;
+#viewportGD {
+    height: 75vh;
+    width: 100vh;
 }
 
-#GD2 {
-    grid-area: 1 / 2 / 2 / 3;
-    background-image: url(../Images/GDPortfolio/Checquers.jpg);
-    background-position: center;
+#navigationGD ul {
+    list-style: none;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
+
 }
 
-#GD3 {
-    grid-area: 1 / 3 / 2 / 4;
-    background-image: url(../Images/GDPortfolio/LNB_1.jpg);
-    background-position: cover;
+#navigationGD ul li {
+    margin-bottom: 5px;
+    cursor: pointer;
 }
 
-#GD4 {
-    grid-area: 1 / 4 / 2 / 5;
-    background-image: url(../Images/GDPortfolio/LNB_2.jpg);
-    background-position: center;
+#navigationGD ul li:hover {
+    color: var(--myGreen);
 }
 
-#GD5 {
-    grid-area: 2 / 1 / 3 / 2;
-    background-image: url(../Images/GDPortfolio/Poster_1.jpg);
-    background-position: cover;
+#navigationArrowsGD {
+    display: flex;
 }
 
-#GD6 {
-    grid-area: 2 / 2 / 3 / 3;
-    background-image: url(../Images/GDPortfolio/BizWest.jpg);
-    background-position: center;
+.navigationArrowGD {
+    width: 25px;
+    fill: white;
+    margin-top: 25px;
+    margin-right: 20px;
+    cursor: pointer;
 }
 
-#GD7 {
-    grid-area: 2 / 3 / 3 / 4;
-    background-image: url(../Images/GDPortfolio/Poster_2.jpg);
-    background-position: center;
+.navigationArrowGD :hover {
+    fill: var(--myGreen)
 }
 
-#GD8 {
-    grid-area: 2 / 4 / 3 / 5;
-    background-image: url(../Images/GDPortfolio/Jigsaw1.jpg);
-    background-position: center;
+#currentInfo {
+    list-style: none;
+    font-weight: 200;
+    font-size: 18px;
+    color: white;
 }
 
-#GD9 {
-    grid-area: 3 / 1 / 4 / 2;
-    background-image: url(../Images/GDPortfolio/Poster_3.jpg);
-    background-position: center;
+.portfolioImageGD {
+    height: 100%;
 }
-
-#GD10 {
-    grid-area: 3 / 2 / 4 / 3;
-    background-image: url(../Images/GDPortfolio/Poster_4.jpg);
-    background-position: center;
-}
-
-#GD11 {
-    grid-area: 3 / 3 / 4 / 4;
-    background-image: url(../Images/GDPortfolio/Poster_5.jpg);
-    background-position: center;
-}
-
-#GD12 {
-    grid-area: 3 / 4 / 4 / 5;
-    background-image: url(../Images/GDPortfolio/Sintel.jpg);
-    background-position: center;
-}
-
-#GD13 {
-    grid-area: 4 / 1 / 5 / 2;
-    background-image: url(../Images/GDPortfolio/Poster_6.jpg);
-    background-position: center;
-}
-
-#GD14 {
-    grid-area: 4 / 2 / 5 / 3;
-    background-image: url(../Images/GDPortfolio/Western-white.jpg);
-    background-position: center;
-}
-
-#GD15 {
-    grid-area: 4 / 3 / 5 / 4;
-    background-image: url(../Images/GDPortfolio/WhiteElephant.jpg);
-    background-position: center;
-}
-
-#GD16 {
-    grid-area: 4 / 4 / 5 / 5;
-    background-image: url(../Images/GDPortfolio/Wincanton.jpg);
-    background-position: center;
-}
-
-
-
-
 
 
 @media screen and (max-width: 992px) {
@@ -253,6 +186,14 @@
 
     #projectsGrid {
         height: 60vh;
+    }
+    .selector {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .currentPortfolio {
+        padding-bottom: 2px;
+        border-bottom: 3px solid var(--myGreen);
     }
 }
 
