@@ -130,10 +130,13 @@
 }
 
 #viewportGD {
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
-    height: 75vh;
+    height: 70vh;
     width: 65vw;
-    padding-right: 10vw;
+    margin-right: 10vw;
     justify-content: center;
 }
 
