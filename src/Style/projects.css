@@ -252,7 +252,12 @@
     }
 
     .currentPortfolio {
-        padding-bottom: 1px;
+        padding-bottom: 0;
+        border-bottom: 0;
+        padding-left: 5px;
+        border-left: 3px solid var(--myGreen);
+        padding-right: 5px;
+        border-right: 3px solid var(--myGreen);
     }
 
     #projectsGridGD {
@@ -273,7 +278,7 @@
     }
 
     #viewportGD {
-        height: 100vh;
+        height: 100%;
         width: 80vw;
         padding-right: 0;
         margin-top: 15px;
