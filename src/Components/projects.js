@@ -203,7 +203,7 @@ function Projects() {
                     </div>
                     <div id="currentInfo"></div>
                 </div>
-                <div id="viewportGD">
+                <div id="viewportGD" onClick={increase}>
                     <img id="calendars" className="portfolioImageGD" src={calendarArray[imageIndex]} alt="" />
                     <img id="diaries" className="portfolioImageGD hidden" src={diaryArray[imageIndex]} alt="" />
                     <img id="posters" className="portfolioImageGD hidden" src={postersArray[imageIndex]} alt="" />
