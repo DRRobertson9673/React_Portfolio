@@ -117,12 +117,12 @@
 #projectsGridGD {
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 
 #navigationAndCurrentInfo {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 #navigationGD {
@@ -131,7 +131,8 @@
 
 #viewportGD {
     height: 75vh;
-    width: 100vh;
+    width: 65vw;
+    padding-right: 10vw;
 }
 
 #navigationGD ul {
@@ -139,7 +140,6 @@
     font-weight: 200;
     font-size: 18px;
     color: white;
-
 }
 
 #navigationGD ul li {
@@ -175,7 +175,7 @@
 }
 
 .portfolioImageGD {
-    height: 100%;
+    width: 100%;
 }
 
 
@@ -187,10 +187,12 @@
     #projectsGrid {
         height: 60vh;
     }
+
     .selector {
         margin-bottom: 5px;
         font-size: 15px;
     }
+
     .currentPortfolio {
         padding-bottom: 2px;
         border-bottom: 3px solid var(--myGreen);
@@ -237,5 +239,32 @@
         cursor: pointer;
         font-size: 13px;
         line-height: 13px;
+    }
+
+    #portfolioSelector {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .selector {
+        margin-bottom: 12px;
+        font-size: 15px;
+    }
+    .currentPortfolio {
+        padding-bottom: 1px;
+    }
+    #projectsGridGD {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #navigationGD ul li{
+        display: flex;
+        justify-content: center;
+        font-size: 16px;
+    }
+    .navigationArrowGD {
+        padding-bottom: 20px;
     }
 }
