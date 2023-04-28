@@ -283,9 +283,13 @@
     }
 
     #viewportGD {
-        height: 100%;
         width: 80vw;
-        padding-right: 0;
+        height: 100%;
+        margin-right: 0px;
         margin-top: 15px;
+    }
+    .portfolioImageGD {
+width: 80vw;
+height:fit-content
     }
 }
