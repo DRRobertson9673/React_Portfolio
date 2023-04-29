@@ -135,7 +135,7 @@
     padding-bottom: 20px;
     display: flex;
     height: 70vh;
-    width: 65vw;
+    min-width: 65vw;
     margin-right: 10vw;
     justify-content: center;
 }
@@ -181,6 +181,7 @@
 
 .portfolioImageGD {
     height: 100%;
+    max-width: 65vw;
 }
 
 
