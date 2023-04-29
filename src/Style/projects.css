@@ -202,6 +202,11 @@
         padding-bottom: 2px;
         border-bottom: 3px solid var(--myGreen);
     }
+
+    .portfolioImageGD {
+        width: fit-content;
+        height: fit-content;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -246,9 +251,14 @@
         line-height: 13px;
     }
 
+    /*
     #portfolioSelector {
         text-align: center;
         flex-direction: column;
+    }
+    */
+    #portfolioSelector {
+        display: none;
     }
 
     .selector {
@@ -287,9 +297,5 @@
         height: 100%;
         margin-right: 0px;
         margin-top: 15px;
-    }
-    .portfolioImageGD {
-width: 80vw;
-height:fit-content
     }
 }
