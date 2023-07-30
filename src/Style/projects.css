@@ -24,15 +24,12 @@
 }
 
 #project3 {
-    background-image: url(../Images/screenshotWeather.png);
+    background-image: url(../Images/screenshotBuffalo.png);
 }
 
 #project4 {
-    background-image: url(../Images/KTIcon.svg);
-    background-size: auto;
+    background-image: url(../Images/screenshotKT.png);
     background-position: center;
-    background-repeat: no-repeat;
-    background-color: rgb(250, 62, 0);
 }
 
 .project {
@@ -325,7 +322,7 @@
     }
 
     #project3 {
-        background-image: url(../Images/screenshotWeather.png);
+        background-image: url(../Images/screenshotBuffalo.png);
     }
 
     .project {
